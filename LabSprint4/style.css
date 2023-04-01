@@ -1,0 +1,61 @@
+
+		.header {
+			background-color:#2f9bac;
+			display: flex; 
+			flex-direction: row; 
+			justify-content: space-between; 
+			color: white; 
+			min-height: 50px; 
+			align-items: center; padding: 10px 20px 10px 20px
+		}
+		.header-logo {
+			width: 40%;
+		}
+		.header-logo span {
+			color: #f9e4f2;
+		}
+		.header-content {
+			width: 60%;
+		}
+		.header-content-links {
+			float: right;
+			display: flex;
+			flex-direction: row;
+		}
+		.header-content-links p {
+			margin-left: 10px ;	
+		}
+		.header-content-links a {
+			color: #c0dae3;
+			text-decoration: none;
+		}
+
+
+		.btns {
+
+			height: 2em;
+			width: 6em;
+			background-color: rgb(35 ,73, 226);
+			color: white;
+			border: 0px ;
+			font-size: 1em;
+
+		}
+		input {
+			font-size: 1.5em;
+		}
+		select {
+			font-size: 1.2em;
+			text-indent: 1em;
+			width: 100%;
+		}
+		#birthdate, #prBirthdate {
+			text-indent: 0.5em;
+			width: 100%;
+		}
+
+
+
+
+
+
